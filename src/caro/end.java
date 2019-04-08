@@ -23,9 +23,6 @@ public class end extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 51, 51));
         setForeground(new java.awt.Color(255, 255, 0));
-        setLocation(new java.awt.Point(750, 100));
-        setPreferredSize(new java.awt.Dimension(480, 596));
-        setSize(new java.awt.Dimension(480, 596));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         thoat.setBackground(new java.awt.Color(51, 255, 0));
@@ -37,7 +34,7 @@ public class end extends javax.swing.JFrame {
                 thoatActionPerformed(evt);
             }
         });
-        getContentPane().add(thoat, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 260, 210, -1));
+        getContentPane().add(thoat, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 260, 210, -1));
 
         choilai.setBackground(new java.awt.Color(51, 255, 0));
         choilai.setFont(new java.awt.Font("Trebuchet MS", 0, 24)); // NOI18N
@@ -48,7 +45,7 @@ public class end extends javax.swing.JFrame {
                 choilaiActionPerformed(evt);
             }
         });
-        getContentPane().add(choilai, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 180, 210, -1));
+        getContentPane().add(choilai, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, 210, -1));
 
         ketqua.setBackground(new java.awt.Color(255, 204, 0));
         ketqua.setFont(new java.awt.Font("Times New Roman", 1, 48)); // NOI18N
@@ -60,7 +57,7 @@ public class end extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(255, 204, 0));
         jLabel1.setText("jLabel1");
         jLabel1.setOpaque(true);
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 450, 360));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 270, 360));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

@@ -25,11 +25,11 @@ public class start extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 51));
-        setLocation(new java.awt.Point(750, 100));
-        setSize(new java.awt.Dimension(480, 596));
+        setLocation(new java.awt.Point(650, 100));
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 0));
         jLabel1.setForeground(new java.awt.Color(255, 255, 0));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/caro/anh/5a4f75c7c8ba0aab08d1041588ba1567.jpg"))); // NOI18N
 
         jPanel1.setBackground(new java.awt.Color(255, 204, 0));
 
@@ -116,14 +116,14 @@ public class start extends javax.swing.JFrame {
                 .addComponent(batdau, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(42, 42, 42)
                 .addComponent(thoat3, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(258, Short.MAX_VALUE))
+                .addContainerGap(47, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 480, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
             .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
